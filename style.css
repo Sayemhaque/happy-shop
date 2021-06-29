@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+body{
+    background: #3db1ff;
+}
+.dropdown-menu{
+    background: #010a0f;
+    width:200px;
+    box-shadow: 2px 4px 2px 5px;
+    text-align: center;
+  
+}
+
+.dropdown-menu a 
+{
+    color:white;
+ border-bottom:1px solid black ;
+}
+
+
+.card
+{
+   
+    
+    width: 250px;
+    height: 350px;
+    background: whitesmoke;
+    border-radius: 20px;
+    display:inline-block;
+    margin-bottom:20px;
+   
+  
+}
+.card img{
+    width:200px;
+    height: 150px;
+
+    
+}
+i{
+    color: gold;
+}
+ section
+{
+    background: rgb(6, 129, 245);
+}
+content {
+    background: magenta;
+}
+.card:hover{
+    background: transparent;
+    margin:9px;
+    box-shadow: 2px 4px 3px 5px;
+}
+input
+{
+    padding: 4px;
+    padding-left:7px;
+    display: block;
+    align-items: center;
+}
